@@ -1,0 +1,141 @@
+@keyframes iAjNNh {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* media query css start */
+@media (max-width: 990px) {
+    .hero-bottom-text {
+        font-size: 12px;
+    }
+
+    .product-title {
+        font-size: 16px;
+    }
+
+    .product-price {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 835px) {
+    .footer-bottom {
+        margin-top: 190px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-heading {
+        font-size: 32px;
+    }
+
+    .hero-inner {
+        width: 90%;
+        padding: 40px 0;
+    }
+
+    .hero-top {
+        gap: 22px;
+        align-items: center;
+    }
+
+    .hero-top-heading {
+        font-size: 36px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .hero-bottom {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-bottom div:nth-child(3) {
+        border: 0;
+    }
+
+    .hero-bottom-number {
+        font-size: 24px;
+    }
+
+
+
+    .product-content {
+        gap: 4px;
+    }
+
+    .footer {
+        margin-top: 185px;
+    }
+
+    .footer-top {
+        top: -135px;
+    }
+
+    .footer-top-inner {
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 24px;
+    }
+
+    .footer-top-left {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0;
+    }
+
+    .footer-top-right {
+        gap: 12px;
+        width: 100%;
+    }
+
+    .footer .input-box {
+        width: 100%;
+    }
+
+    .footer input,
+    .footer-top-btn {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-bottom-left,
+    .footer-bottom-right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 475px) {
+    .hero-top {
+        align-items: flex-start;
+    }
+
+    .hero-top-heading,
+    .hero-top-title {
+        text-align: left;
+    }
+
+    .hero-top-btn {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 385px) {
+    .footer-bottom {
+        margin-top: 210px;
+    }
+}
+/* media query css end */
