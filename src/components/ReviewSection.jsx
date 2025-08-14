@@ -32,11 +32,11 @@ const ReviewSection = () => {
 
     return (
         <div className="w-full flex flex-col gap-[32px] items-center justify-center">
-            <div className="max-w-[800px] flex flex-row gap-[8px] items-start justify-start">
+            <div className="max-w-[800px]">
                 <div className="w-full text-black text-center text-[48px] font-bold pt-16 section-heading">OUR HAPPY CUSTOMERS</div>
             </div>
 
-            <div className="w-full flex flex-row items-center justify-center relative overflow-hidden">
+            <div className="w-full flex items-center justify-center relative overflow-hidden">
                 <div className="w-[90%] max-w-[800px] relative bg-[rgb(240,238,237)] rounded-[83.5px_0px_83.5px_0px]">
                     <Slider {...settings}>
                         {reviews.map(review => (

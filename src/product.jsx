@@ -24,7 +24,6 @@ const products = [
         image: ClothImage,
         ratingIcon: StarIcon,
         ratingIconQuantity: 4,
-        ratingIconQuantity: 4,
         rating: 4.5,
         price: "₹30"
     },

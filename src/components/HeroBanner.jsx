@@ -3,7 +3,7 @@ import React from "react";
 const HeroBanner = () => {
 
     return (
-        <div className="flex flex-row items-center justify-center w-full mt-[78px] bg-[rgb(242,240,241)] hero">
+        <div className="flex items-center justify-center w-full mt-[78px] bg-[rgb(242,240,241)] hero">
             <div className="max-w-[1240px] px-[0] py-[103px] flex flex-col gap-[48px] items-start justify-center hero-inner">
                 <div className="flex flex-col gap-[32px] items-start justify-start hero-top">
                     <div className="text-black text-[64px] font-bold leading-[64px] relative max-w-[577px] hero-top-heading">

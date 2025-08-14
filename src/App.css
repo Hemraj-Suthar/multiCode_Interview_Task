@@ -8,6 +8,11 @@
     }
 }
 
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 
 /* media query css start */
 @media (max-width: 990px) {
@@ -138,4 +143,5 @@
         margin-top: 210px;
     }
 }
+
 /* media query css end */
